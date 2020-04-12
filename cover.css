@@ -24,6 +24,10 @@ a:hover {
  * Base structure
  */
 
+html {
+  width:100vw;
+  overflow-x:hidden;
+}
 html,
 body {
   height:100%;
@@ -44,6 +48,7 @@ body {
 
 .cover-container {
   max-width: 42em;
+  width: 672px;
 }
 
 
